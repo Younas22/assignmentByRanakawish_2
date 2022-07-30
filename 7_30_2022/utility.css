@@ -1,0 +1,10 @@
+body{font-family:Arial;}
+.text-red{
+	color :rgb(167,53,0);
+	}
+.text-green{
+	color :rgb(0,133,33);
+}
+.bg-dark{ 
+background-color:#5555;
+}

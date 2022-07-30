@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500&display=swap');
+body{
+font-family: 'Montserrat', sans-serif;
+}
+.c1{
+	background-color:gray;
+}
+.c2{
+	background-color:gray;
+}
+.c3{
+	color:green;
+}
+span{
+	background-color:green;
+}
