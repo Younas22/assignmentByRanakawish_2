@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500&display=swap');
+body{font-family:Montserrat;}
+header{
+	background-color:gray;
+}
+main{
+	background-color:gray;
+}
+.c3{
+	color:green;
+}
+span{
+	background-color:green;
+}
