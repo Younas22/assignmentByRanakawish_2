@@ -1,0 +1,15 @@
+/*inline style attribute > id selector > class selector > elements selector */
+
+
+h1{
+color:red;
+}
+h1.h1class{
+	color:green;
+}
+.heading{
+	color:magenta;
+}
+/*#h1id{
+	color:gray;
+}*/
