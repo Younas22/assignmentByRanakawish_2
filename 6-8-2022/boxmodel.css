@@ -1,0 +1,24 @@
+                         h1{border: 4px dotted red;
+                        background-color:green;
+
+/*padding-top: 40px;
+padding-bottom:70px;
+padding-left:80px;
+padding-right:100px;*/
+/*padding:40px;*/
+/*padding: 40px 80px;*/
+/*padding: 30px 40px  50px 60px;*/
+
+                             padding:10px;
+/*margin-left: 90px;
+margin-right: 80px;
+margin-bottom:50px;
+margin-top:60px;*/
+/*margin:50px;*/
+/*margin: 40px 50px;
+margin:40px 50px 60px 70px;*/
+
+                           width:500px;
+                           margin: 20px auto;
+/*text-align:center;*/
+}
