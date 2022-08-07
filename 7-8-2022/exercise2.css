@@ -1,0 +1,26 @@
+
+body{
+	font-family:Arail, sans-serif;
+	}
+
+h1{
+background-color:lightgray;
+text-align:center;
+padding:10px;
+
+}
+div.c3{
+	width:900px;
+	margin:0 auto;
+	
+}
+
+div.c1, div.c2{
+	border:4px solid lightgray;
+padding:10px;
+}
+
+.c1{
+	margin-bottom:30px;
+	}
+
