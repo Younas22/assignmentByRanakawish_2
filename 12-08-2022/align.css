@@ -1,0 +1,16 @@
+h1{
+background-color:lightblue;
+width:500px;
+/*text-align:center;*/
+text-align:right;
+padding-right:8px;
+
+
+}
+a{
+	display:inline-block;
+	width:500px;
+	background-color:gray;
+	text-align:center;
+	text-align:left;
+}

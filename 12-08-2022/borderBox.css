@@ -1,0 +1,22 @@
+body{
+	font-family:arial;
+}
+hr{
+width: 500px;
+margin-left:0;
+}
+.box1{
+	box-sizing:border-box;
+	 width:500px;
+	 background-color:gray;
+	 border:5px solid red;
+	 padding:10px;
+	 margin-bottom:15px ;
+	 }
+ .box2{
+	 width:500px;
+	 background-color:gray;
+	 border:5px solid red;
+	 padding:10px;
+	
+	 }
