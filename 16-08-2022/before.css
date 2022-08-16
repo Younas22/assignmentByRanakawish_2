@@ -1,0 +1,29 @@
+h1::before{
+	display:block;
+	
+content: 'hello  ';
+border: 2px solid red;
+color:green;
+background:gray;
+margin-bottom:5px;	
+width:500px;
+text-align:center;
+
+}
+h1::after{
+	
+margin-bottom:5px;	
+content: 'heading  ';
+border: 2px solid red;
+color:green;
+background:gray;
+
+
+}
+p::after{
+	border: 2px solid red;
+color:green;
+background:gray;
+
+	content: 'Pakistan ';
+}
