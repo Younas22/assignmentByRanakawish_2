@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+ 
+ body{
+ font-family: 'Poppins', sans-serif
+ }
+/* p:first-child{
+	 color:green;
+ }*/
+ /*p:first-of-type{
+	 color:red;
+ }*/
+ /*P:last-child{
+	 color:green;
+ }*/
+/* p:last-of-type{
+	 color:red;
+ }*/
+/* P:nth-child(2n+1){
+	 color:green;
+ }*/
+/* p:nth-of-type(2n){
+	 color:green;
+ }
+ li:nth-child(2n+1){
+	 color:white;
+	 list-style:none;
+	 background:green;
+	 text-align:center;
+ }*/
+ body :not(p){
+	 color:green;
+	 
+ }
+ div:empty{
+	 background:green;
+ border:2px solid red;
+ width:50px;
+ height:50px;
+ 
+ }
+ 
+ :root{
+	 background:black;
+	 color:white;
+ }
+ /*p::first-letter{
+	 font-size:32px;
+ }*/
+ ::selection{
+	 background:red;
+ color:gray;
+ }
+ input:focus{
+	 padding:10px;
+	 outline:none;
+	 border: 2px  solid green;
+color:red;
+ }
+ 
+ a:link{
+	 color:orange;
+ }
+
+ a:visited{
+	 color:red;
+ }
+ 
+ a:hover{
+	 color:green;
+ }
+ 
+ a:active{
+	 color:black;
+ }
+ 
+ 
+ 
+
+  a{
+	  color:green;
+  }
+    ul {
+		color:gray;
+	}
+ /** {
+	 padding:0;
+	 margin:0;
+ }*/
+ .box1{
+	  border:8px solid red;
+	  margin-bottom:10px;
+	  width:300px;
+	  box-sizing:border-box;
+	  padding:20px;
+	  background:green;
+  }
+	 
+ .box2{
+	 border:8px solid green;
+	 width:300px;
+	 padding:20px;
+	 background
+	 :red;
+ }
+	 .cool::before{
+		 content: 'Hello';
+	 background:green;
+	 border: 2px solid gray;
+
+ }
+ .cool::after{
+		 content: 'Pakistan';
+	 background:green;
+	 border: 2px solid gray;
+
+ }
+ .cool1::after{
+		 content: 'Pakistan';
+	 background:red;
+	 border: 2px solid gray;
+
+ }
