@@ -1,0 +1,22 @@
+/*html{
+	font-size:10px;
+	font-size:62.5%;
+	// 16 -->100% 
+	10px --> 100/16*62.5//
+	
+}*/
+.root{
+	font-size:10px;
+}
+	
+
+.box1{
+font-size:2rem;
+}
+.text{
+	font-size:3rem;
+	border:0.5rem solid red;
+	margin:1rem;
+	padding:1.5rem;
+}
+	
