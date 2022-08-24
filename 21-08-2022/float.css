@@ -1,0 +1,30 @@
+*{
+	box-sizing:border-box;
+}
+.fav{
+	border: 10px solid green;
+	
+}
+.first{
+	background:lightgray;
+	float:left;
+	width:33%;
+	padding:10px;
+}
+.between{
+	background:lightseagreen;
+	float:left;
+	width:34%;
+	padding:10px;
+}
+.last{
+	background:lightblue;
+	float:left;
+	width:33%;
+	padding:10px;
+}
+.fav::after{
+	content:'';
+display:block;
+clear:both;
+}	
