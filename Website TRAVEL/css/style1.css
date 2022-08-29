@@ -1,0 +1,256 @@
+
+.section{
+	background:#ddd;
+	padding:10rem 0;
+}
+.row{
+height:350px;
+background:#fff;
+box-shadow:0px 0px 20px 0px #aaa;
+}
+.row1{
+		margin-bottom:10rem;
+}
+
+.row1 .img-box, .row2 .text-box{
+	float:left;
+	width:50%;
+}
+.row2 .img-box, .row1 .text-box{
+	float:right;
+	width:50%;
+}
+
+.row .img-box{
+
+height: 100%;
+}	
+ .row .text-box{
+padding: 3rem;
+ }
+
+ 
+ .row .img-box img{
+	 display:inline-block;
+	 height:100%;
+	 width:100%;
+	 object-fit:cover;
+ }
+ 
+ .more{
+	 border-radius:4px solid red;
+ }
+ .row::after{
+	 content:'';
+	 display:block;
+	 clear:both;
+ }
+ /*######### footer styling ########*/
+ .footer{
+padding:1.5rem;
+	 text-align:center;
+	 background-color:gray;
+	 
+ }
+ .social-media i{
+	 margin:2rem;
+ }
+ 
+ /* ######### about page  styling ########*/
+ .about-p{
+	 text-align:center;
+	 margin-top:2rem;
+ }
+ .about{
+	 padding:5rem 0px;
+	
+ }
+ .about-heading::after{
+content:'';
+display:block;
+	 border:3px solid #f55142; 
+width:100%;
+
+ }
+ .p{
+	float:left;
+		width:50%;
+
+ }
+.p1{
+	float:right;
+	width:50%;
+}
+.about-p::after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.about-p p::before{
+	content:'\2713';
+	color:#ed4a3b;
+	padding-right:1rem;
+	font-weight:bold;
+}
+/*######### count styling #########*/
+.sub{
+	margin-top:3rem;
+	
+}
+
+.count{
+	float:left;
+	width:25%;
+	text-align:center;
+	
+}
+.count span{
+	color:#f54f40;
+	font-weight:bold;
+	font-size:3rem;
+}
+	 .count p{
+		font-weight:700;
+		color:#0a0802;
+		font-size:1.8rem;
+	}
+	.sub::after{
+	content:'';
+	display:block;
+	clear:both;
+	}
+	
+	/*######## ca-ban styling #############*/
+	
+
+	.banner{
+		background:#f55142;
+		color:white;
+		padding:0.5rem;
+		box-shadow:5px 5px 10px #00000057 ;
+	}
+	.f-left{
+		float:left;
+		
+		width:60%;
+
+
+	}
+	.f-right{
+		
+		float:right;
+		text-align:right;
+		width:40%;
+		
+	}
+	
+	.banner::after{
+		content:'';
+		display:block;
+		clear:both;
+	}
+	
+	.p-line{
+		font-weight:700;
+		font-size:1.6rem;
+		margin-top:1.5rem;
+	}
+	.contect-btn{
+		font-weight:700;
+		font-size:2.5rem;
+		text-transform:uppercase;
+		border:4px solid white;
+		padding:  0.3rem;
+		letter-spacing:0.5rem;
+		color:white;
+		text-align:center;
+		display:inline-block;
+		
+	}
+	/*############## contect page styling #####*/
+	.contact-form{
+		padding:5rem 0;
+		background:#f7f7f7;
+	}
+	
+    .company{
+		height:750px;
+		float:left;
+				width:49%;
+				
+	background:white;
+	padding:1rem;
+	}
+	
+	
+	.form-loop .address-section i{
+		display:inline-block;
+		margin-left:1rem;
+	}
+		.form-loop .address-section h2{
+		display:inline-block;
+		text-transform:uppercase;
+		}
+		.form-loop::after{
+			content:'';
+		display:block;
+		clear:both;
+	}
+	.form-loop .address-section{
+		margin-bottom:2rem;
+	}
+	
+	.form-loop .company img{
+		max-width: 90%;
+	 min-height:40rem;
+	 object-fit:cover;
+	 object-position:right;
+	
+	}
+	/*######## form styling ##########*/
+	.form{
+		height:750px;
+		font-size:1.6rem;
+		width:49%;
+		float:right;
+			
+	background:white;
+	padding:1rem;
+	}
+	.form h1::after{
+		content:'';
+		display:block;
+		width:98%;
+		border:3px solid #eb4034;
+	
+	}
+	.form label{
+		display:block;
+	}
+	.form input{
+		padding:0.5rem;
+		width:100%;
+	}
+	.form .form1{
+		margin-bottom:1.2rem;
+	}
+		.form label::after{
+			content:'*';
+			color:#eb4034;
+		}
+		.form textarea{
+			width:100%;
+			height:200px;
+			padding:1rem;
+		}
+		.form-btn{
+			display:block;
+			margin:0 auto;
+			padding:0.5em 3em ;
+			font-size:1.8rem;
+			text-transform:uppercase;
+			background-color:#eb4034;
+			color:white;
+			outline:none;
+			border:none;
+		}
