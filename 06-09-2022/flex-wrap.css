@@ -1,0 +1,33 @@
+body{
+font-family:arial:}
+.main-box {
+  
+border:10px solid black;
+display:flex;
+height:500px;
+/*flex-wrap:nowrap;
+flex-wrap:wrap;*/
+flex-direction:column;
+flex-wrap:wrap-reverse;
+}
+.box{
+border:1px solid gray;
+width:400px;
+
+}
+.box1{
+background-color:gray;
+}
+.box2{
+background-color:green;
+}
+.box3{
+
+background-color:lightblue;
+}
+.box4{
+background-color:orange;
+}
+.box5{
+	background-color:#d2f7f2;
+}
