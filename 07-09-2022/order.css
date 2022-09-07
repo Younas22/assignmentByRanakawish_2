@@ -1,0 +1,43 @@
+body{
+font-family:arial;
+}
+.main-box {
+  
+border:10px solid black;
+display:flex;
+height:500px;
+align-items:center;
+justify-content:space-between;
+}
+.box{
+border:1px solid gray;
+width:400px;
+}
+.box1{
+background-color:gray;
+order:3;
+
+}
+.box2{
+background-color:green;
+order:2;
+
+
+}
+.box3{
+order: 1;
+
+
+background-color:lightblue;
+
+}
+.box4{
+background-color:orange;
+
+
+}
+.box5{
+	background-color:#d2f7f2;
+	
+
+	}
