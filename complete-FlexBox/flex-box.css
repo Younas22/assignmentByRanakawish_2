@@ -1,0 +1,119 @@
+body{
+font-family:arial;
+}
+.main-box {
+  
+border:10px solid black;
+display:flex;
+
+/* #### flex direction ###
+flex-direction:row;
+flex-direction:row-reverse;
+flex-direction:column;
+flex-direction:column;
+### Flex direction END ####*/
+
+/*### flex wrap #####
+flex-wrap:nowrap;
+flex-wrap:wrap;
+flex-wrap:wrap-reverse;
+#### flex-wrap END ####*/
+
+/*height:300px;
+flex-direction: column;
+flex-wrap: wrap-reverse;
+*/
+
+/* ##### justify-content ####### 
+justify-content:flex-start ;
+justify-content:flex-end;
+justify-content:center;
+justify-content:space-between;
+justify-content:space-evenly;
+justify-content:space-around;
+####### justify-content end ##### */   
+/*flex-direction:column;
+height:700px;
+justify-content:center;
+justify-content:space-around;
+ */
+ 
+ /*#### align-items #### 
+ height:600px;
+ align-items:stretch;
+ align-items: flex-start;
+ align-items: flex-end;
+ align-items: center;
+ ###### align-items end ######*/
+ 
+ /*flex-direction:column;
+ align-items:flex-end;
+ align-items:center;*/
+ 
+ /* ####flex-flow ##### 
+ flex-flow: column wrap;
+ height:400px;
+ ### flex-flow end ### */
+ 
+ /* ### align-self #### 
+ align-items:center;
+ justify-content:space-between;
+ height:400px;
+### align-self  end#### */
+
+/*##### flex-basis ####
+flex-wrap:wrap-reverse;
+ #### flex-basis end ####*/
+ 
+ /*### flex-grow #### 
+ max-width:1200px;
+ ### flex-grow end #### */
+ 
+/*#### flex-shrink #### */
+ max-width:1200px;
+ flex-wrap:wrap;
+ /*#### flex-shrink end #### */
+}
+
+.box{
+	border:1px solid gray;
+	flex:1 1 400px;
+/*width:600px;*/
+/*flex-basis:400px;*/
+}
+.box1{
+background-color:gray;
+/*align-self:flex-start;*/
+/*order:1;*/
+/*flex-grow:1;*/
+/*flex-shrink:0;*/
+/*flex:1 2 300px;*/
+}
+.box2{
+background-color:green;
+/*order:2;*/
+/*flex-grow:2;*/
+/*flex-shrink:1;*/
+/*flex:1 2 300px;*/
+/*flex:1;
+flex:300px;
+flex:1 400px;
+flex:1 2; */
+}
+.box3{
+background-color:lightblue;
+/*align-self:flex-end;*/
+/*order:3;*/
+/*flex-grow:1;*/
+/*flex-shrink:2;*/
+/*flex:1 2 500px;*/
+}
+.box4{
+background-color:orange;
+
+
+}
+.box5{
+	background-color:#d2f7f2;
+	
+	}
